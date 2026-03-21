@@ -28,4 +28,12 @@ Explicação simples + comando
 Para criar um repositório Git local:
 
 ```bash
+mkdir <nome da pasta>
+
+```bash
+cd <nome da pasta>
+
+```bash
 git init
+
+E depois Fazer suas alterações
