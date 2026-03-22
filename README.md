@@ -1,5 +1,37 @@
 # 📚 Estudos de Git e GitHub
 
+# 📚 Estudos de Git e GitHub - Dia 21/03
+
+<!-- 
+Título principal do seu README.
+Use # para título grande.
+-->
+
+## 🚀 Conteúdo estudado
+
+<!-- 
+Seção para resumir o que você viu no dia.
+-->
+
+Hoje aprendi conceitos básicos de Git e GitHub, incluindo:
+
+- Criação de repositórios
+- Clonagem de repositórios
+- Salvando alterações no repositório local
+
+---
+
+## 📦 Criando um repositório
+
+<!-- 
+Explicação simples + comando
+-->
+
+Para criar um repositório Git local:
+
+```bash
+git init
+
 ---
 
 # 📅 Dia 20/03
@@ -57,3 +89,133 @@ Com ele, podemos:
 
 ```bash
 git config --global user.name "Seu Nome"
+
+```
+---
+# 📚 Estudos de Java - Dia 19/03
+
+<!-- 
+Início da jornada no Java (base e fundamentos)
+-->
+
+## 🚀 Conteúdo estudado
+
+Hoje reiniciei meus estudos em Java do zero, com foco em entender o ecossistema da linguagem e preparar o ambiente de desenvolvimento.
+
+---
+
+## ☕ Introdução ao Java
+
+<!-- 
+Contexto da linguagem
+-->
+
+Aprendi sobre a história da linguagem Java e sua importância no mercado.
+
+### 📌 Onde o Java é utilizado:
+
+- Backend
+- Sistemas corporativos
+- Aplicações Android
+
+Também tive uma visão inicial da área de programação com Java.
+
+---
+
+## ⚙️ Configuração do ambiente
+
+<!-- 
+Primeiro passo de qualquer dev
+-->
+
+Instalei o JDK (Java Development Kit).
+
+### 🧠 Entendimento:
+
+O JDK é responsável por:
+
+- Compilar o código (`javac`)
+- Executar programas Java (JVM)
+
+Agora já consigo rodar códigos Java localmente.
+
+---
+
+## 🏗️ Gerenciamento de Build
+
+<!-- 
+Conceito mais avançado (ótimo que você já viu isso cedo)
+-->
+
+Aprendi que **build** é o processo de transformar código fonte em algo executável.
+
+### 🔄 Esse processo envolve:
+
+- Compilação (`.java → .class`)
+- Testes (em alguns casos)
+- Empacotamento
+
+Também entendi a importância da automação nesse processo.
+
+### 🛠️ Ferramentas:
+
+- Maven → mais padrão
+- Gradle → mais flexível (**minha escolha inicial**)
+
+---
+
+## 🖥️ Configuração da IDE
+
+<!-- 
+Ambiente de desenvolvimento
+-->
+
+Conheci algumas das principais IDEs:
+
+- IntelliJ
+- Eclipse
+- VS Code
+
+Optei pelo **VS Code** por já ter familiaridade.
+
+---
+
+## 💻 Primeiros contatos práticos
+
+<!-- 
+Aqui começa a prática real
+-->
+
+- Escrevi meus primeiros códigos em Java
+- Compilei arquivos manualmente
+- Executei programas no terminal
+
+### 🔁 Fluxo básico aprendido:
+
+1. Escrever código
+2. Compilar
+3. Executar
+
+---
+
+## 🧠 O que eu entendi
+
+<!-- 
+Parte mais importante
+-->
+
+Antes de programar de fato, é essencial entender o ecossistema da linguagem.
+
+Hoje foi um dia focado em base e preparação para evoluir com mais segurança nos próximos conteúdos.
+
+---
+
+## 📌 Próximos passos
+
+<!-- 
+Conexão com os próximos dias
+-->
+
+- Sintaxe básica (variáveis e tipos)
+- Estruturas condicionais (if/else)
+- Laços de repetição (for, while)
