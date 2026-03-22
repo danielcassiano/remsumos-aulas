@@ -1,0 +1,207 @@
+
+# 📚 Estudos de Git e GitHub - Dia 21/03
+
+---
+
+## 🚀 Conteúdo estudado
+
+Hoje aprofundei meus conhecimentos em Git e GitHub, entendendo o fluxo completo de trabalho com repositórios locais e remotos.
+
+### 📌 Tópicos abordados:
+
+* Criando e clonando repositórios
+* Salvando alterações no repositório local
+* Desfazendo alterações
+* Enviando e baixando alterações (local ↔ remoto)
+* Trabalhando com branches
+* Comandos úteis no dia a dia
+
+---
+
+## 📦 Criando e clonando repositórios
+
+### Criar repositório local
+
+```bash
+mkdir nome-do-projeto
+cd nome-do-projeto
+git init
+```
+
+> Inicializa um repositório Git na pasta
+
+---
+
+### Clonar repositório remoto
+
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+> Baixa um projeto do GitHub para sua máquina
+
+---
+
+## 💾 Salvando alterações no repositório local
+
+### Verificar estado do projeto
+
+```bash
+git status
+```
+
+> Mostra arquivos modificados
+
+---
+
+### Adicionar arquivos (stage)
+
+```bash
+git add .
+```
+
+> Adiciona todos os arquivos para o commit
+
+---
+
+### Criar commit
+
+```bash
+git commit -m "mensagem do commit"
+```
+
+> Salva uma versão do projeto
+
+---
+
+## ↩️ Desfazendo alterações
+
+### Desfazer mudanças em arquivo
+
+```bash
+git checkout -- nome-do-arquivo
+```
+
+---
+
+### Remover arquivo do stage
+
+```bash
+git reset nome-do-arquivo
+```
+
+---
+
+### Voltar último commit (mantendo arquivos)
+
+```bash
+git reset --soft HEAD~1
+```
+
+---
+
+## ☁️ Trabalhando com repositório remoto
+
+### Conectar repositório local ao remoto
+
+```bash
+git remote add origin URL_DO_REPOSITORIO
+```
+
+---
+
+### Enviar código para o GitHub (primeiro envio)
+
+```bash
+git push -u origin main
+```
+
+---
+
+### Enviar alterações
+
+```bash
+git push
+```
+
+---
+
+### Baixar alterações
+
+```bash
+git pull
+```
+
+---
+
+## 🔄 Fluxo completo (LOCAL → REMOTO)
+
+1. Criar/editar arquivos
+2. `git status`
+3. `git add .`
+4. `git commit -m "mensagem"`
+5. `git push`
+
+---
+
+## 🌿 Trabalhando com branches
+
+### Criar branch
+
+```bash
+git branch nome-da-branch
+```
+
+---
+
+### Trocar de branch
+
+```bash
+git checkout nome-da-branch
+```
+
+---
+
+### Criar e trocar
+
+```bash
+git checkout -b nome-da-branch
+```
+
+---
+
+### Mesclar branch
+
+```bash
+git merge nome-da-branch
+```
+
+---
+
+## 🧠 Comandos úteis no dia a dia
+
+* `git status` → Estado do repositório
+* `git log` → Histórico
+* `git diff` → Diferenças
+* `git branch` → Listar branches
+
+---
+
+## 🧠 O que eu entendi
+
+Hoje aprendi o fluxo completo do Git, desde a criação de um repositório até o envio das alterações para o GitHub.
+
+Entendi a diferença entre repositório local e remoto e como eles se sincronizam.
+
+---
+
+## 📌 Próximos passos
+
+* Praticar conflitos de merge
+* Criar projetos reais com Git
+* Aprender Git avançado (rebase, stash)
+
+---
+
+
+
