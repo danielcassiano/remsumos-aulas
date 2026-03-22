@@ -1,4 +1,3 @@
-
 # 📚 Estudos de Git e GitHub - Dia 21/03
 
 ---
@@ -28,7 +27,7 @@ cd nome-do-projeto
 git init
 ```
 
-> Inicializa um repositório Git na pasta
+> Inicializa um repositório Git na pasta.
 
 ---
 
@@ -38,7 +37,7 @@ git init
 git clone URL_DO_REPOSITORIO
 ```
 
-> Baixa um projeto do GitHub para sua máquina
+> Baixa um projeto do GitHub para sua máquina.
 
 ---
 
@@ -50,7 +49,7 @@ git clone URL_DO_REPOSITORIO
 git status
 ```
 
-> Mostra arquivos modificados
+> Mostra os arquivos modificados.
 
 ---
 
@@ -60,7 +59,7 @@ git status
 git add .
 ```
 
-> Adiciona todos os arquivos para o commit
+> Adiciona todos os arquivos para o stage.
 
 ---
 
@@ -70,7 +69,7 @@ git add .
 git commit -m "mensagem do commit"
 ```
 
-> Salva uma versão do projeto
+> Salva uma versão do projeto.
 
 ---
 
@@ -82,6 +81,8 @@ git commit -m "mensagem do commit"
 git checkout -- nome-do-arquivo
 ```
 
+> Restaura o arquivo para o último estado commitado.
+
 ---
 
 ### Remover arquivo do stage
@@ -90,6 +91,8 @@ git checkout -- nome-do-arquivo
 git reset nome-do-arquivo
 ```
 
+> Remove o arquivo da área de stage.
+
 ---
 
 ### Voltar último commit (mantendo arquivos)
@@ -97,6 +100,8 @@ git reset nome-do-arquivo
 ```bash
 git reset --soft HEAD~1
 ```
+
+> Desfaz o último commit mantendo as alterações.
 
 ---
 
@@ -108,6 +113,8 @@ git reset --soft HEAD~1
 git remote add origin URL_DO_REPOSITORIO
 ```
 
+> Vincula o repositório local a um remoto.
+
 ---
 
 ### Enviar código para o GitHub (primeiro envio)
@@ -115,6 +122,8 @@ git remote add origin URL_DO_REPOSITORIO
 ```bash
 git push -u origin main
 ```
+
+> Envia o projeto e define a branch principal.
 
 ---
 
@@ -124,6 +133,8 @@ git push -u origin main
 git push
 ```
 
+> Envia commits para o repositório remoto.
+
 ---
 
 ### Baixar alterações
@@ -132,11 +143,13 @@ git push
 git pull
 ```
 
+> Atualiza o repositório local com as mudanças remotas.
+
 ---
 
 ## 🔄 Fluxo completo (LOCAL → REMOTO)
 
-1. Criar/editar arquivos
+1. Criar ou editar arquivos
 2. `git status`
 3. `git add .`
 4. `git commit -m "mensagem"`
@@ -162,7 +175,7 @@ git checkout nome-da-branch
 
 ---
 
-### Criar e trocar
+### Criar e trocar ao mesmo tempo
 
 ```bash
 git checkout -b nome-da-branch
@@ -181,8 +194,8 @@ git merge nome-da-branch
 ## 🧠 Comandos úteis no dia a dia
 
 * `git status` → Estado do repositório
-* `git log` → Histórico
-* `git diff` → Diferenças
+* `git log` → Histórico de commits
+* `git diff` → Diferenças entre versões
 * `git branch` → Listar branches
 
 ---
@@ -191,17 +204,14 @@ git merge nome-da-branch
 
 Hoje aprendi o fluxo completo do Git, desde a criação de um repositório até o envio das alterações para o GitHub.
 
-Entendi a diferença entre repositório local e remoto e como eles se sincronizam.
+Entendi claramente a diferença entre repositório local e remoto e como ocorre a sincronização entre eles.
 
 ---
 
 ## 📌 Próximos passos
 
 * Praticar conflitos de merge
-* Criar projetos reais com Git
-* Aprender Git avançado (rebase, stash)
+* Criar projetos reais utilizando Git
+* Aprender comandos avançados (rebase, stash)
 
 ---
-
-
-
