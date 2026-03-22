@@ -2,36 +2,33 @@
 
 # 📚 Estudos de Git e GitHub - Dia 21/03
 
-<!-- 
-Título principal do seu README.
-Use # para título grande.
--->
+---
 
 ## 🚀 Conteúdo estudado
 
-<!-- 
-Seção para resumir o que você viu no dia.
--->
+Hoje avancei nos estudos de Git e GitHub, aprendendo na prática como trabalhar com repositórios locais e remotos.
 
-Hoje aprendi conceitos básicos de Git e GitHub, incluindo:
+### 📌 Tópicos abordados:
 
-- Criação de repositórios
-- Clonagem de repositórios
+- Criando e clonando repositórios
 - Salvando alterações no repositório local
+- Desfazendo alterações no repositório local
+- Enviando e baixando alterações do repositório remoto
+- Trabalhando com branches
+- Comandos úteis no dia a dia
 
 ---
 
-## 📦 Criando um repositório
+## 📦 Criando e clonando repositórios
 
-<!-- 
-Explicação simples + comando
--->
-
-Para criar um repositório Git local:
+### Criar repositório local
 
 ```bash
+mkdir nome-da-pasta
+cd nome-da-pasta
 git init
 
+```
 ---
 
 # 📅 Dia 20/03
