@@ -13,5 +13,4 @@ O objetivo desses registros é:
 
 Este repositório funciona como um diário técnico, onde organizo de forma clara e progressiva tudo o que venho aprendendo durante minha formação.
 
-Obs: Uso o Chat GPT para me ajudar a me organizar nos resumo, por isso os emojis.
 ---
